@@ -1,0 +1,17 @@
+{
+	"name": "lookup_metadatasql",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Cloud_databaseaccess",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "metadatadelta"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
